@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Pressstart;
+    src: url("data/fonts/PressStart2P.ttf");
+}
+* {
+    font-family: Pressstart;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.ukryty {
+    display: none;
+}
+body {
+    background-color: black;
+}
+input {
+    border: none;
+    background: transparent;
+    text-shadow: 0 0 0 white;
+    color:transparent;
+    margin: 3px;
+    width: 0px;
+}
+input:focus {
+    outline: none;
+}
+input, #interakcja, #kwadracik {
+    float: left;
+}
+#kwadracik {
+    height: 1ch;
+    width: 1ch;
+    background-color: white;
+}
+p {
+    text-align: center;
+    width: 526px;
+}

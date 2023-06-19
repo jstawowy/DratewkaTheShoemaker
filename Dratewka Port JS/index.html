@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dratewka</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="game" class="ukryty">
+        <div id="opis"></div>
+        <img id="obrazek"/>
+        <img id="kompas"/>
+        <div id="interface">
+            <div id="kierunki"></div>
+            <div id="itemy"></div>
+            <div id="plecak"></div>
+            <div id="interakcja">What now?</div>
+            <input id="input" type="text"/>
+            <div id="kwadracik"></div>
+        </div>
+        <div id="vocabulary" class="ukryty">
+            NORTH or N, SOUTH or S<br/><br/>
+            WEST or W, EAST or E<br/><br/>
+            TAKE (object) or T (object)<br/><br/>
+            DROP (object) or D (object)<br/><br/>
+            USE (object) or U (object)<br/><br/>
+            GOSSIPS or G, VOCABULARY or V<br/><br/>
+            Press any key
+        </div>
+        <div id="gossips" class="ukryty">
+            The  woodcutter lost  his home key...<br/><br/>
+            The butcher likes fruit... The cooper<br/><br/>
+            is greedy... Dratewka plans to make a<br/><br/>
+            poisoned  bait for the dragon...  The<br/><br/>
+            tavern owner is buying food  from the<br/><br/>
+            pickers... Making a rag from a bag...<br/><br/>
+            Press any key
+        </div>
+    </div>
+    <img id="hello" src="data/czołówka.jpg"/>
+    <img id="opis_a" src="data/opis_A.jpg" class="ukryty"/>
+    <img id="opis_b" src="data/opis_B.jpg" class="ukryty"/>
+    <img id="sztos" src="data/sztos.png" width="526" height="371" class="ukryty"/>
+    <audio controls id="hejnal" class="ukryty">
+        <source src="data/hejnał.mp3" type="audio/mpeg"/>
+    </audio>
+    <p>Press any key</p>
+</body>
+</html>
